@@ -1,0 +1,132 @@
+@charset "utf-8";
+
+.sns{
+	overflow: hidden;
+/* 	margin-bottom: 10px; */
+	background-color: #d9d9d6;
+	width: 100%;
+}
+
+.sns_wrap{
+	width: calc(100% - 40px);
+	max-width: 1240px;
+	overflow: hidden;
+	margin: 0 auto;
+	padding: 5px 0;
+	height: 30px;
+}
+
+.sns_button{
+	float: left;
+	height: 100%;
+	overflow: hidden;
+	line-height: 1;
+	color: #fff;
+}
+
+.sns_button li{
+	display: inline-block;
+	height: 20px;
+	padding: 3px 5px;
+	font-size: 1.1rem;
+	line-height: 14px;
+	-webkit-border-radius: 3px;/* Safari,Google Chrome用 */
+	-moz-border-radius: 3px;/* Firefox用 */
+	border-radius: 3px;
+	vertical-align: top;
+	margin-left: inherit;
+	behavior: url("border-radius.htc"/*tpa=https://www.tel.com/periodic/css/border-radius.htc*/); /* IE */
+}
+
+.sns_button li.icon03{
+	background-color: #6FB536;
+}
+
+.sns_button li.icon03 img{
+	vertical-align: top;
+}
+
+.sns_button li.fb-like{
+	padding: 0;
+}
+
+.sns_button li.fb-share-button{
+	background-color: #305097;
+}
+
+
+.sns_button li.ogn_tweet{
+	background-color: #1b95e0;
+}
+
+.sns_button li.ogn_google_plus{
+	background-color: #db4a39;
+}
+
+.sns_button li.ogn_hatebu{
+	background-color: #00a4de;
+}
+
+.sns_button li:last-child{
+	
+}
+
+.sns_button li dt,
+.sns_button li dd{
+	display: inline-block;
+}
+
+a.sns_link{
+	text-decoration: none;
+	color: #fff;
+}
+
+#magazine #mainArea a.sns_link{
+	text-decoration: none;
+	color: #fff;
+}
+
+#magazine #mainArea a.sns_link span{
+	vertical-align: middle;
+}
+
+a.sns_link img{
+	display: inline-block;
+	height: 14px;
+	width: 14px;
+	vertical-align: middle;
+}
+
+a.sns_link:hover{
+	opacity: 0.8;
+}
+
+@media screen and (max-width:740px){
+	.sns{
+		height: auto;
+		overflow: hidden;
+	}
+	
+	.sns_wrap{
+		text-align: center;
+		width: 100%;
+		height: auto;
+		padding: 5px 0 0;
+	}
+	
+/*
+	.sns_button li.fb-like{
+		display: none;
+	}
+*/
+	
+	.sns li{
+		margin-bottom: 5px;
+	}
+	
+	.sns_button{
+		float: none;
+		margin: 0 auto;
+/* 		display: inline-block; */
+	}
+}

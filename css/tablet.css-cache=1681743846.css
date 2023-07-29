@@ -1,0 +1,190 @@
+html{
+/* 	font-size: 14px; */
+}
+
+body{
+	min-width: inherit;
+	font-size: 1.4em;
+}
+
+.wrap,
+.img_wrap{
+	width: 100%;
+	min-width: inherit;
+	padding: 0 10px;
+}
+
+.content{
+	width: 100%;
+	padding: 10px;
+}
+
+.lead{
+	font-size: 1.6rem;
+}
+
+.tablet_hide{
+	display: none;
+}
+
+#lnavi ul{
+	padding: 10px;
+}
+
+#lnavi li:nth-child(1),
+#lnavi li:nth-child(2){
+	font-size: 1.2rem;
+}
+
+#explain_illust_pic02{
+	width: 30%;
+}
+
+#explain_illust table{
+	font-size: 1.2rem;	
+}
+
+table.stamp td, table.stamp th{
+	padding: 2px;
+}
+
+.top_img{
+	height: 160px;
+}
+
+#top_img1{
+	height: 160px;
+	overflow: hidden;
+}
+
+#top_img2{
+	width: 45%;
+}
+
+#img_txt1{
+	bottom: -10px;
+}
+
+#top_img_ttl{
+	top: 60px;
+}
+
+#top_img_ttl img{
+	width: 83%;
+}
+
+.ttl{
+	margin-bottom: 10px;
+}
+
+
+#pic01 > *:last-child{
+	width: 100%;
+	position: inherit;
+}
+
+#pic07{
+	width: 50%;
+	top: 80px;
+	right: 0px;
+}
+
+#karuta_img dt{
+	font-size: 1.2rem;
+}
+
+#ar_pic{
+	padding-left: 0;
+}
+
+/*
+#pic03 img:first-child{
+	margin-right: 5px;
+}
+*/
+
+#color_tip_conts a{
+	width: calc( (100% - 50px ) / 5 );
+}
+
+#color_tip_conts{
+	height: 240px;
+}
+
+#element_nos{
+	min-width: inherit;
+	width: 100%;
+}
+
+#about_periodic img{
+	margin-left: 5px;
+}
+
+#img_txt3{
+	right: 0;
+	bottom: 90px;
+}
+
+.go_top{
+	margin-right: 20px;
+}
+
+.go_top.top_btn{
+	margin-right: 20px;
+}
+
+#color_tip_txt2 li:last-child{
+	font-size: 1.3rem;
+}
+
+#elements_nanotech .nanotech_img{
+	padding: 20px 40px;
+}
+
+#elements_nanotech .nanotech_img > div.en_txt{
+	font-size: 1rem;
+}
+
+#elements_nanotech .nanotech_img:nth-child(2) p.button{
+	display: inline-block;
+	width: 60px;
+	height: auto;
+	font-size: 1rem;
+	right: 5px;
+	bottom: 5px;
+}
+
+#banner_semicon > div{
+	left: 20px;
+	min-width: 420px;
+}
+
+#banner_semicon > div > section{
+	padding: 20px;
+}
+
+#banner_semicon > img{
+	right: 20px;
+	width: 40%;
+}
+
+#banner_quiz{
+	background-size: auto 100%;
+}
+
+#banner_quiz h4 img{
+	display: block;
+}
+
+#banner_quiz > img{
+	display: none;
+}
+
+#banner_quiz p{
+	width: 37.5%;
+	font-size: 1.3rem;
+}
+
+.periodic_en #ar_table_explain{
+	width: 65%;
+}

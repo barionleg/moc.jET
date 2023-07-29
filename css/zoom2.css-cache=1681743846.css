@@ -1,0 +1,205 @@
+#peridoctable {
+/* 	position: relative; */
+	width: 100%;
+	margin: 0 auto;
+	font-size:0;
+	overflow: hidden;
+	padding: 20px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: flex-start;
+}
+
+#peridoctable a:hover{
+	opacity: 1;
+}
+
+.peridocTitle {
+	position:absolute;
+	top:0;
+	left:45px;
+	width:718px;
+	height:175px;
+	background: url("../img/peridocTitle.png"/*tpa=https://www.tel.com/periodic/img/peridocTitle.png*/) no-repeat;
+}
+#peridoctable .thumb{
+  height:56px;
+  position:relative;
+  width:43px;
+  float:left;
+  padding:1px;
+  cursor: pointer;
+}
+#peridoctable li{
+	display: block;
+	width: calc((100% - 72px) / 18);
+/* 	max-width: 62.6px; */
+/* 	height: calc(((100% - 72px) / 18) * 1.3); */
+	list-style: none;
+	margin: 0 4px 4px 0;
+	padding: 0;
+/*
+	-webkit-flex-grow: 1;
+	flex-grow: 1;
+*/
+/* 	float: left; */
+	position: relative;
+/* 	flex-basis: calc((100% - 72px) / 18); */
+}
+#peridoctable li:before {
+    content:"";
+    display: block;
+    padding-top: 130%;
+}
+#peridoctable li.mr_0{
+	margin-right: 0!important;
+}
+
+
+#peridoctable img{
+	width: 100%;
+	max-width: inherit;
+	display: block;
+	position: absolute;
+	margin: auto;
+	top:0;
+	bottom:0;
+	left: 0;
+	right: 0;
+	backface-visibility: hidden;
+}
+/*
+#peridoctable a{
+	display: inline-block;
+	width: 100%;
+	backface-visibility: hidden;
+}
+*/
+@keyframes zoom {
+0% {
+transform: scale(1,1);
+animation-timing-function: ease-in;
+/* opacity:0; */
+}
+100% {
+transform: scale(1.5,1.5);
+animation-timing-function: ease-out;
+}
+}
+
+@keyframes zoom2 {
+0% {
+transform: scale(1,1);
+animation-timing-function: ease-in;
+/* opacity:0; */
+}
+100% {
+transform: scale(1.25,1.25);
+animation-timing-function: ease-out;
+}
+}
+
+.zoomed{
+	transform: scale(1.5,1.5);
+	z-index: 10;
+	animation: zoom 0.3s;
+}
+#kanban2 img.zoomed{
+	transform: scale(1.25,1.25);
+	animation: zoom2 0.3s;
+}
+#ar_tel_logo img.zoomed{
+	transform: scale(1.25,1.25);
+	animation: zoom2 0.3s;
+	transform-origin:left bottom;
+}
+
+#peridoctable #kanban1{
+	width: calc((((100% - 72px) / 18) * 16) + 60px);
+	max-width: inherit;
+/*
+	-webkit-flex-grow: 16;
+	flex-grow: 16;
+*/
+	text-align: center;
+	overflow: hidden;
+}
+#peridoctable #kanban1:before{
+    padding-top: 7%;
+}
+#peridoctable .kanban2{
+	width: calc((((100% - 72px) / 18) * 10) + 36px);
+	max-width: inherit;
+/*
+	-webkit-flex-grow: 10;
+	flex-grow: 10;
+*/
+	text-align: center;
+
+}
+#peridoctable .kanban2:before{
+	content: none;
+}
+/*
+#peridoctable #kanban2{
+	margin-bottom: calc(((100% - 72px) / 18) * -1.5);
+	z-index: 5;
+}
+#peridoctable #kanban2:hover{
+	cursor: pointer;
+}
+#peridoctable #kanban2:before{
+    content:"";
+    padding-top: 25.18%;
+}
+*/
+#peridoctable #kanban2 img{
+	margin: 0 auto;
+	bottom: inherit;
+}
+
+
+#peridoctable .kanban3{
+	width: calc((((100% - 72px) / 18) * 3) + 8px);
+	max-width: inherit;
+}
+
+
+#peridoctable #ar_tel_dog:before{
+	content: none;
+}
+
+#peridoctable #ar_tel{
+	margin-bottom: calc(((100% - 72px) / 18) * -1.3);
+	z-index: 5;
+}
+
+#peridoctable #ar_tel_dog img{
+	top:0;
+	bottom: inherit;
+	margin: 0 auto;
+	width: 60%;
+}
+
+#peridoctable #ar_tel_logo:before{
+    padding-top: 41.5%;
+	
+}
+
+#peridoctable #ar_tel_logo img{
+	top:inherit;
+	left:0;
+	right: inherit;
+	bottom: 0;
+	margin: 0;
+}
+
+#peridoctable li.mgn_bt{
+	margin-bottom: 30px;
+}
+
